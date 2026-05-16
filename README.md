@@ -1,66 +1,28 @@
-# Notification System Dashboard
+# Notification System
 
-A responsive notification management dashboard built using Next.js and Material UI.
+A responsive notification system built using Next.js and Material UI.
 
 ## Features
 
-- View all notifications
-- Priority notifications page
-- Notification type filtering
+- View notifications
+- Filter notifications by type
 - Pagination support
-- Responsive UI for desktop and mobile
-- Professional dashboard design
-- Priority calculation based on notification type
-- API integration using async services
-- Reusable component architecture
+- Priority notifications page
+- Responsive UI
+- Material UI design
 
 ---
 
-## Tech Stack
+## Screenshots
 
-- Next.js
-- React
-- TypeScript
-- Material UI (MUI)
+### Home Page
 
----
+![Home Page](home%20page.png)
 
-## Notification Types
+### Filter Notifications
 
-- Placement
-- Result
-- Event
+![Filter Notifications](text%20bar.png)
 
----
+### Priority Notifications
 
-## Priority Logic
-
-Notifications are prioritized using weighted scores:
-
-| Type | Priority |
-|------|----------|
-| Placement | Highest |
-| Result | Medium |
-| Event | Lowest |
-
----
-
-## Project Structure
-
-```txt
-src/
- ├── app/
- │    ├── page.tsx
- │    └── priority/
- │         └── page.tsx
- │
- ├── components/
- │    ├── Navbar.tsx
- │    ├── NotificationCard.tsx
- │    └── FilterBar.tsx
- │
- ├── services/
- │    └── notificationService.ts
- │
- └── utils/
-      └── priorityCalculator.ts
+![Priority Notifications](Priority%20page.png)
